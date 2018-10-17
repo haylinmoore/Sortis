@@ -1,0 +1,79 @@
+.list-group-item-blue .status {
+  color: #3498DB;
+}
+
+.card-outline-blue {
+  background-color: transparent;
+  border: 2px solid #3498DB;
+}
+.card-outline-blue .card-text {
+  color: #3498DB;
+}
+
+.list-group-item-green .status {
+  color: #2fcc66;
+}
+
+.card-outline-green {
+  background-color: transparent;
+  border: 2px solid #2fcc66;
+}
+.card-outline-green .card-text {
+  color: #2fcc66;
+}
+
+.list-group-item-orange .status {
+  color: #e67e22;
+}
+
+.card-outline-orange {
+  background-color: transparent;
+  border: 2px solid #e67e22;
+}
+.card-outline-orange .card-text {
+  color: #e67e22;
+}
+
+.list-group-item-red .status {
+  color: #e74c3c;
+}
+
+.card-outline-red {
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+}
+.card-outline-red .card-text {
+  color: #e74c3c;
+}
+
+.list-group-item-yellow .status {
+  color: #f1c40f;
+}
+
+.card-outline-yellow {
+  background-color: transparent;
+  border: 2px solid #f1c40f;
+}
+.card-outline-yellow .card-text {
+  color: #f1c40f;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+  /* Vertically center the text there */
+}
